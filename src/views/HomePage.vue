@@ -11,7 +11,7 @@ const isOpen = ref(true);
 
 const strings = ref({
   en: {
-    title: 'SON Format',
+    title: 'elease Calendar',
     copy: 'Copy',
     reduce: 'Reduce',
     format: 'Format',
@@ -55,7 +55,7 @@ function copyJson() {
 <template>
   <div class="editor">
     <div class="title">
-      <div><span style=" color:#41B883;font-size: 3.5rem;">J</span>{{ local.title }}</div>
+      <div><span style=" color:#41B883;font-size: 3.5rem;">R</span>{{ local.title }}</div>
       <div>
         <a href="https://github.com/bluesky335/json-formatter">
           <img
