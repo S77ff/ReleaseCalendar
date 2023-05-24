@@ -1,32 +1,24 @@
-<p align="center">
-  <img width="80" lt="logo" src="./src/assets/logo.svg" class="logo">
-</p>
+# release-calendar
 
-# JSON Formatter
-A lite web app to format and preview json string.
+## Project setup
+```
+npm install
+```
 
-**[Try it on line](https://bluesky335.github.io/json-formatter-website/)**
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-<p align="center">
-  <img width="800" lt="logo" src="./screenshot/screenshot.png" class="logo">
-</p>
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## Vue 3 + Typescript + Vite
-This project is built with **[Vue 3](https://vuejs.org/) + [Typescript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/)**
+### Lints and fixes files
+```
+npm run lint
+```
 
-## Docker image
-
-View at [Docker Hub](https://hub.docker.com/r/bluesky335/json-formatter)
-
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-## Start up
-
-`npm install`
-
-`npm run dev`
-
-## License
-[MIT License](./LICENSE)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
